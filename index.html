@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player Music</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <div class="player">
+        <div class="dashboasd">
+            <header>
+                <h4>Now playing:</h4>
+                <h2>String 57th & 9th</h2>
+            </header>
+        <div class="cd">
+            <div class="cd-thumb" style="background-image: url(https://static-zmp3.zadn.vn/skins/common/logo600.png); background-position: center;"></div>
+        </div>
+        <!-- control -->
+        <div class="control">
+            <div class="btn btn-repeat">
+                <i class="fa-solid fa-rotate-right"></i>
+            </div>
+            <div class="btn btn-prev">
+                <i class="fa-solid fa-backward-step"></i>
+            </div>
+            <div class="btn btn-toggle-play">
+                <i class="fa-solid fa-pause icon-pause"></i>
+                <i class="fa-solid fa-play icon-play"></i>
+            </div>
+            <div class="btn btn-next">
+                <i class="fa-solid fa-forward-step"></i>
+            </div>
+            <div class="btn btn-random">
+                <i class="fa-solid fa-shuffle"></i>
+            </div>
+        </div>
+        <input id="progress" class="progress" type="range" value="0" step="1" min="0" max="100">
+        <audio id="audio" src=""></audio>
+    </div>
+    <!-- playlist -->
+    <div class="playlist">
+      
+    </div>
+    </div>
+    <script src="/assets/javascript/js.js"></script>
+</body>
+</html>
